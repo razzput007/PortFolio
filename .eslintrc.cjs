@@ -20,7 +20,9 @@ module.exports = {
     "react/no-unknown-property": [
       "error",
       {
-        "ignore": ["intensity", "penumbra", "castShadow", "shadow-mapSize","groundColor","position","angle","rotation","object","max","speed","scale","options"]
+        "ignore": ["intensity", "penumbra", "castShadow", "shadow-mapSize","groundColor","position","angle","rotation","object","max","speed","scale","options","polygonOffset",
+          "polygonOffsetFactor",
+          "flatShading","position-y","rotation-y"]
       }
     ]
   },

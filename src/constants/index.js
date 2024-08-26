@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    MagicEdtech,
+    PGTech,
+    BrainTechnosys,
     carrent,
-    jobit,
-    tripguide,
+    YouTube,
     threejs,
+    Ecommerce,
   } from "../assets";
   
   export const navLinks = [
@@ -116,11 +115,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer Trainee",
+      company_name: "PG Tech Pvt Limited",
+      icon: PGTech,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "February 2023 - May 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +128,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer Trainee",
+      company_name: "Brain Technosys Pvt Limited",
+      icon: BrainTechnosys,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "November 2023 - February 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +141,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "SDE Intern",
+      company_name: "Magic Edtech",
+      icon: MagicEdtech,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "March 2024 - July 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -216,49 +202,53 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/razzput007/Car-Rental",
     },
     {
-      name: "Job IT",
+      name: "YouTube",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A YouTube project replicates the core features of YouTube, including video playback, user profiles, and content discovery, to create a similar video-sharing platform.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material-UI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: YouTube,
+      source_code_link: "https://github.com/razzput007/Youtube-Clone",
+    },
+    {
+      name: "FlipZone",
+      description:
+        "A feature-rich eCommerce platform designed for seamless online shopping with intuitive navigation, secure transactions, and personalized user experiences.",
+      tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
           name: "scss",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Node Js",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Ecommerce,
+      source_code_link: "https://github.com/razzput007/FlipZone-Frontend",
     },
   ];
   
