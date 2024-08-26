@@ -17,5 +17,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": ["intensity", "penumbra", "castShadow", "shadow-mapSize","groundColor","position","angle","rotation","object","max","speed","scale","options"]
+      }
+    ]
   },
 }
