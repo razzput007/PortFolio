@@ -26,23 +26,25 @@ const Contact = () => {
       [name]: value,
     });
   };
-
+//template_boourif
+//service_utz7q5k
+//iw2SXiS3HLr9yTFqc
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_utz7q5k',
+        'template_boourif',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Raja Kumar",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "rajasingh.rk007@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'iw2SXiS3HLr9yTFqc'
       )
       .then(
         () => {
